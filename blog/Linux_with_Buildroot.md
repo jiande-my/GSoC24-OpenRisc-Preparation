@@ -39,10 +39,10 @@ wget https://github.com/openrisc/or1k-gcc/releases/download/or1k-12.0.1-20220210
 mkdir -p /opt/openRISC/crosstool
 tar -xf or1k-linux-12.0.1-20220210-20220304.tar.xz -C /opt/openRISC/crosstool
 ```
-Open shell configuration file: `nano ~/.bashrc`
-Add the following line
+- Open shell configuration file: `nano ~/.bashrc`
+- Add the following line
 `export PATH=/opt/openRISC/crosstool/or1k-linux/bin:$PATH `
-Apply Changes:
+- Apply Changes:
 `source ~/.bashrc`
 ## Buildroot
 ```
