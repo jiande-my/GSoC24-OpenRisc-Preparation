@@ -85,7 +85,7 @@ Initialize initram
 ![Linux Menuconfig](./images/linux_menuconfig.png)
 ## Run QEMU
 ```
-qemu-system-or1k -cpu or1220 -M or1k-sim -nographic \
+qemu-system-or1k -cpu or1200 -M or1k-sim -nographic \
       -kernel vmlinux \
       -m 128
 ```
